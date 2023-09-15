@@ -1,0 +1,55 @@
+body{
+    background-color: #5372f0;
+}
+
+.header{
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.headerContainer{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.quoteBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 50%;
+    height: 300px;
+    margin: 5rem auto;
+}
+
+.quoteDay{
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.quoteButton{
+    padding: 15px 32px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 10% auto 1%; /* top right bottom left */
+    cursor: pointer;
+    
+}
+
+.quote, .author{
+    font-family: "Open Sans";
+    margin-top: 3.5rem;
+    text-align: justify;
+}
