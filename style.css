@@ -28,6 +28,8 @@ body{
     width: 50%;
     height: 300px;
     margin: 5rem auto;
+    overflow: hidden;
+    padding: 10px 20px 20px 20px; /* Top Right Bottom Left */
 }
 
 .quoteDay{
