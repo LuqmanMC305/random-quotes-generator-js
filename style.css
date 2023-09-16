@@ -14,7 +14,6 @@ body{
     text-align: center;
     border-radius: 10px;
     border: 2px solid whitesmoke;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .quoteBox{
@@ -25,18 +24,18 @@ body{
     flex-direction: column;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    width: 50%;
-    height: 300px;
-    margin: 5rem auto;
-    overflow: hidden;
-    padding: 10px 20px 20px 20px; /* Top Right Bottom Left */
+    width: 60%;
+    height: 450px;
+    margin: 2rem auto;
+    overflow: visible;
+    padding: 15px 20px 20px 40px; /* Top Right Bottom Left */
 }
 
 .quoteDay{
     font-family: "Roboto", sans-serif;
     font-size: large;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 .quoteButton{
@@ -45,7 +44,7 @@ body{
     border: none;
     color: white;
     font-size: 16px;
-    margin: 10% auto 1%; /* top right bottom left */
+    margin: 5% auto 1%; /* top right bottom left */
     cursor: pointer;
     
 }
@@ -55,3 +54,14 @@ body{
     margin-top: 3.5rem;
     text-align: justify;
 }
+
+.quoteContainer i:last-child{
+    margin-left: 100%;
+    margin-top: 10%;
+}
+
+.quoteContainer i:first-child{
+    margin-top: 50px;
+}
+
+

@@ -3,6 +3,7 @@ const apiURL = "https://api.quotable.io/random";
 
 const button = document.getElementById('quoteButton');
 const quotes = document.getElementById('quote');
+const authors = document.getElementById('author')
 
 let randomQuote;
 let author;
@@ -29,10 +30,9 @@ function createQuote()
         author = data.author;
 
         quotes.innerHTML = randomQuote;
+        authors.innerHTML = "-" + author + "-";
         
 
-    //console.log("Quote: " + randomQuote);
-    //console.log("Author:" + author);
     
     })
 
